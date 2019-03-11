@@ -9,7 +9,7 @@ for (let i = 0; i < a.length; i++) {
 		const scrollYStart = window.scrollY;
 		const scrollOffset = element.offsetTop - scrollYStart;
 
-    if (window.scrollY != element.offsetTop) {
+    if (window.scrollY !== element.offsetTop) {
   		console.log(scrollOffset);
 
   		animate({
