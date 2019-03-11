@@ -9,15 +9,17 @@ for (let i = 0; i < a.length; i++) {
 		const scrollYStart = window.scrollY;
 		const scrollOffset = element.offsetTop - scrollYStart;
 
-		console.log(scrollOffset);
+    if (window.scrollY != element.offsetTop) {
+  		console.log(scrollOffset);
 
-		animate({
-            duration: Math.abs(scrollOffset) * 0.5, // sets same scrolling speed for different scroll offset (change to constant for same scrolling time)
-            timing: easeInOutQuad,
-            draw: function(progress) {
-                window.scrollTo(0, scrollYStart + progress * scrollOffset);
-            }
-        });
+  		animate({
+              duration: Math.abs(scrollOffset) * 0.5, // sets same scrolling speed for different scroll offset (change to constant for same scrolling time)
+              timing: easeInOutQuad,
+              draw: function(progress) {
+                  window.scrollTo(0, scrollYStart + progress * scrollOffset);
+              }
+          });
+    }
 	});
 }
 
