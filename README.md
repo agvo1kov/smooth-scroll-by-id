@@ -13,4 +13,4 @@ animate({
 });
 ```
 
-So, there makes scroll time is constant, and scroll speed will be depended from scroll distance (from current scroll position to the element).
+So, scroll time is constant here and scroll speed depends on scroll distance (from current scroll position to the element).
