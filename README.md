@@ -1,6 +1,6 @@
 # Smooth scroll by tag id
 
-Demo: [https://agvolkov5.github.io/smooth-scroll-by-id/](https://agvolkov5.github.io/smooth-scroll-by-id/)
+Demo: [https://agvo1kov.github.io/smooth-scroll-by-id/](https://agvo1kov.github.io/smooth-scroll-by-id/)
 
 This is a simple example of crossbrowsing smooth scroll. Scroll speed is constant for various scroll distances, however it can be simply changed by replacing just one line in `script.js`:
 ```js
